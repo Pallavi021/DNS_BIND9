@@ -1,0 +1,18 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	x.gtld-server.qual. admin.example.qual. (
+			      3		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+	 IN  NS x.gtld-server.qual.
+x.gtld-server.qual. IN A 10.0.2.3
+
+; name servers - NS records
+example.qual.     IN      NS      ns3.example.qual.
+ns3.example.qual. IN A 10.3.1.7
+ns4.example.qual. IN A 10.3.1.8
