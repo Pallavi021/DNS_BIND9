@@ -26,7 +26,7 @@ x.gtld-server.tcl. IN A 10.0.0.3
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	x.root-server.qual. admin.test.qual. (
+@	IN	SOA	x.root-server.qual. admin.example.qual. (
 			      3		; Serial
 			 604800		; Refresh
 			  86400		; Retry
